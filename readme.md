@@ -52,3 +52,26 @@ To run this project locally, you must use a web server (like the one built into 
 ---
 
 ### **📁 File Structure**
+/mannan-faiz-portfolio
+├── index.html       // Main structure, content, and Tailwind CSS links
+├── style.css        // Custom styles (e.g., scroll-behavior)
+├── script.js        // EmailJS form submission logic and SweetAlert calls
+└── README.md        // This file
+
+
+---
+
+### **🤝 Connect with Me**
+
+| Platform | Link |
+| :--- | :--- |
+| **Email** | `mannanfaiz@gmail.com` |
+| **GitHub** | [MannanFaiz](https://github.com/MannanFaiz) |
+| **LinkedIn** | [Mannan Faiz's Profile](https://www.linkedin.com/in/mannan-faiz) |
+| **LeetCode** | [My LeetCode Profile](https://leetcode.com/) |
+| **HackerRank** | [My HackerRank Profile](https://www.hackerrank.com/) |
+
+***
+
+*Developed with ❤️ by Mannan Faiz*
+

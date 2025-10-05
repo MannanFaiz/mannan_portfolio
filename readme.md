@@ -1,0 +1,53 @@
+# Mannan Faiz | Professional Portfolio 🧑‍💻
+
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/MannanFaiz/your-repo-name)
+[![Built With](https://img.shields.io/badge/Built%20With-Tailwind%20CSS-blueviolet.svg)](https://tailwindcss.com/)
+[![Feedback](https://img.shields.io/badge/Contact%20Form-EmailJS-red)](https://www.emailjs.com/)
+
+---
+
+### **🌟 Project Overview**
+
+This is the personal portfolio website for **Mannan Faiz**, built to showcase my technical skills, professional experience, and projects. Designed to be clean, modern, and fully responsive, it serves as a dynamic, professional digital resume.
+
+The site features dedicated sections for **About, Education, Skills, Projects,** and a direct **Feedback** form.
+
+### **✨ Key Features**
+
+* **⚡ Modern & Responsive:** Crafted with **Tailwind CSS** for a professional look that adapts perfectly to desktop and mobile screens.
+* **💨 Smooth Navigation:** Implements `scroll-behavior: smooth` for a seamless and polished user experience between all sections.
+* **📧 Functional Feedback:** A working contact form powered by **EmailJS** allows visitors to send feedback directly to my email inbox. Alerts for submission are handled using **SweetAlert2**.
+* **🔗 Integrated Presence:** Quick access to my professional profiles on **LinkedIn, GitHub, LeetCode,** and **HackerRank**.
+
+---
+
+### **🚀 Tech Stack**
+
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | **HTML5** | Structure and Semantic Markup |
+| **Styling** | **Tailwind CSS** | Utility-first, responsive styling |
+| **Logic** | **Vanilla JavaScript** | DOM manipulation and core interactivity |
+| **Form Service** | **EmailJS** | Serverless handling for the contact form |
+
+---
+
+### **🛠️ Local Setup & Run**
+
+To run this project locally, you must use a web server (like the one built into Python) to ensure the **EmailJS** service can communicate correctly, as browsers restrict file system-based API calls.
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/MannanFaiz/your-repo-name.git](https://github.com/MannanFaiz/your-repo-name.git)
+    cd your-repo-name
+    ```
+2.  **Initialize a Local Server (Recommended: Python 3):**
+    ```bash
+    python -m http.server 8000
+    ```
+3.  **View:**
+    Open your browser and navigate to: `http://localhost:8000`
+
+---
+
+### **📁 File Structure**

@@ -4,6 +4,11 @@
 [![Built With](https://img.shields.io/badge/Built%20With-Tailwind%20CSS-blueviolet.svg)](https://tailwindcss.com/)
 [![Feedback](https://img.shields.io/badge/Contact%20Form-EmailJS-red)](https://www.emailjs.com/)
 
+## **🔗 View Live Demo**
+
+You can view the live, deployed version of this portfolio here:
+[**https://mannan-portfolio-phi.vercel.app/**](https://mannan-portfolio-phi.vercel.app/)
+
 ---
 
 ### **🌟 Project Overview**
@@ -37,17 +42,17 @@ The site features dedicated sections for **About, Education, Skills, Projects,**
 
 To run this project locally, you must use a web server (like the one built into Python) to ensure the **EmailJS** service can communicate correctly, as browsers restrict file system-based API calls.
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/MannanFaiz/your-repo-name.git](https://github.com/MannanFaiz/your-repo-name.git)
-    cd your-repo-name
-    ```
-2.  **Initialize a Local Server (Recommended: Python 3):**
-    ```bash
-    python -m http.server 8000
-    ```
-3.  **View:**
-    Open your browser and navigate to: `http://localhost:8000`
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/MannanFaiz/your-repo-name.git](https://github.com/MannanFaiz/your-repo-name.git)
+    cd your-repo-name
+    ```
+2.  **Initialize a Local Server (Recommended: Python 3):**
+    ```bash
+    python -m http.server 8000
+    ```
+3.  **View:**
+    Open your browser and navigate to: `http://localhost:8000`
 
 ---
 
@@ -74,4 +79,3 @@ To run this project locally, you must use a web server (like the one built into 
 ***
 
 *Developed with ❤️ by Mannan Faiz*
-

@@ -1,6 +1,6 @@
 # Mannan Faiz | Professional Portfolio 🧑‍💻
 
-[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/MannanFaiz/your-repo-name)
+[![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](https://github.com/MannanFaiz/your-repo-name)
 [![Built With](https://img.shields.io/badge/Built%20With-Tailwind%20CSS-blueviolet.svg)](https://tailwindcss.com/)
 [![Feedback](https://img.shields.io/badge/Contact%20Form-EmailJS-red)](https://www.emailjs.com/)
 
@@ -23,12 +23,13 @@ The site features dedicated sections for **About, Education, Skills, Projects,**
 
 ### **🚀 Tech Stack**
 
-| Category | Technology | Purpose |
+| Category | Technology | Files Used |
 | :--- | :--- | :--- |
-| **Frontend** | **HTML5** | Structure and Semantic Markup |
-| **Styling** | **Tailwind CSS** | Utility-first, responsive styling |
-| **Logic** | **Vanilla JavaScript** | DOM manipulation and core interactivity |
-| **Form Service** | **EmailJS** | Serverless handling for the contact form |
+| **Structure** | **HTML5** | `index.html` |
+| **Styling** | **Tailwind CSS** | Used via CDN in `index.html` |
+| **Custom Styling** | **CSS3** | `style.css` (for `scroll-behavior: smooth`) |
+| **Logic** | **Vanilla JavaScript** | `script.js` (DOM manipulation, form handling) |
+| **Form Service** | **EmailJS** | `script.js` (Serverless handling for the contact form) |
 
 ---
 

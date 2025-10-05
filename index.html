@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mannan Faiz | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 text-white p-4 fixed w-full z-10">
+    <div class="flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Mannan Faiz</h1>
+      <div class="space-x-4">
+        <a href="#about" class="hover:text-blue-400">About</a>
+        <a href="#education" class="hover:text-blue-400">Education</a>
+        <a href="#skills" class="hover:text-blue-400">Skills</a>
+        <a href="#projects" class="hover:text-blue-400">Projects</a>
+        <a href="#feedback" class="hover:text-blue-400">Feedback</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="pt-24 text-center p-8 bg-white shadow-md">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">About Me</h2>
+    <p class="max-w-2xl mx-auto">I’m <b>Mannan Faiz</b>, a Software Engineer and Data Science enthusiast passionate about AI, Machine Learning, and Full Stack Development. I enjoy solving problems and building data-driven applications.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="p-8 text-center bg-gray-100">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">Education</h2>
+    <ul class="space-y-3">
+      <li><b>JAWAHARLAL NEHRU COLLEGE OF ENGINEERING</b> – B.E. Computer Science (GPA: 9.06)</li>
+      <li><b>SRI AUROBINDO PU COLLEGE</b> – 12th PCMB (95.5%)</li>
+      <li><b>BHARATIYA VIDYA BHAVAN</b> – 10th (89.8%)</li>
+    </ul>
+  </section>
+
+  <!-- Resume -->
+  <section class="text-center p-8 bg-white">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">My Resume</h2>
+    <a href="assets/resume.pdf" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+      📄 View Resume
+    </a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="p-8 bg-gray-100 text-center">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
+      <div>💻 Java</div>
+      <div>🐍 Python</div>
+      <div>⚙️ C/C++</div>
+      <div>🌐 HTML, CSS, JS</div>
+      <div>🧠 Machine Learning</div>
+      <div>📊 Power BI</div>
+      <div>☁️ Cloud & Streamlit</div>
+      <div>🧩 TensorFlow, Scikit-learn</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="p-8 bg-white text-center">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-50 shadow rounded p-4">
+        <img src="assets/images/project1.png" alt="Diabetes Prediction" class="rounded mb-3 mx-auto" />
+        <h3 class="font-bold">Diabetes Prediction System</h3>
+        <p>ML model using Python & Scikit-learn to predict diabetes risk.</p>
+      </div>
+      <div class="bg-gray-50 shadow rounded p-4">
+        <img src="assets/images/project2.png" alt="Dance Mirror" class="rounded mb-3 mx-auto" />
+        <h3 class="font-bold">Dance Mirror</h3>
+        <p>Interactive AI game using Mediapipe & JS for pose detection.</p>
+      </div>
+      <div class="bg-gray-50 shadow rounded p-4">
+        <img src="assets/images/project3.png" alt="YouTube Summary" class="rounded mb-3 mx-auto" />
+        <h3 class="font-bold">YouTube Summary Generator</h3>
+        <p>Streamlit app using Google API for video transcript summaries.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Socials -->
+  <section class="p-8 bg-gray-100 text-center">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">Connect With Me</h2>
+    <div class="flex justify-center space-x-6 text-3xl">
+      <a href="mailto:mannanfaiz@gmail.com" target="_blank">📧</a>
+      <a href="https://www.linkedin.com/in/mannan-faiz" target="_blank">💼</a>
+      <a href="https://github.com/MannanFaiz" target="_blank">🐙</a>
+      <a href="https://leetcode.com/" target="_blank">🧩</a>
+      <a href="https://www.hackerrank.com/" target="_blank">💻</a>
+      <a href="https://www.instagram.com/" target="_blank">📸</a>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback" class="p-8 bg-white text-center">
+    <h2 class="text-3xl font-semibold text-blue-600 mb-4">Feedback</h2>
+    <form id="feedbackForm" class="max-w-md mx-auto">
+      <input type="text" id="name" placeholder="Your Name" required class="w-full p-2 mb-3 border rounded" />
+      <input type="email" id="email" placeholder="Your Email" required class="w-full p-2 mb-3 border rounded" />
+      <textarea id="message" placeholder="Your Feedback" required class="w-full p-2 mb-3 border rounded"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Submit</button>
+    </form>
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center p-4">
+    © 2025 Mannan Faiz. All Rights Reserved.
+  </footer>
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

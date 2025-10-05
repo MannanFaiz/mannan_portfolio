@@ -4,10 +4,9 @@
 [![Built With](https://img.shields.io/badge/Built%20With-Tailwind%20CSS-blueviolet.svg)](https://tailwindcss.com/)
 [![Feedback](https://img.shields.io/badge/Contact%20Form-EmailJS-red)](https://www.emailjs.com/)
 
-## **🔗 View Live Demo**
+## **🚀 LIVE DEMO**
 
-You can view the live, deployed version of this portfolio here:
-[**https://mannan-portfolio-phi.vercel.app/**](https://mannan-portfolio-phi.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/VIEW_PORTFOLIO-MANNAN_FAIZ-blue?style=for-the-badge)](https://mannan-portfolio-phi.vercel.app/)
 
 ---
 
@@ -79,3 +78,4 @@ To run this project locally, you must use a web server (like the one built into 
 ***
 
 *Developed with ❤️ by Mannan Faiz*
+
